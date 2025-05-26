@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 12px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.perfil-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.perfil-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.perfil-info {
+  flex: 1;
+}
+
+.perfil-info h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.perfil-info p {
+  margin: 4px 0;
+  color: #666;
+}
+
+.perfil-info .stats {
+  font-size: 14px;
+  color: #333;
+}
+
+.perfil-info a {
+  text-decoration: none;
+  color: #0077cc;
+  font-size: 14px;
+}
+
+.repos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.repo-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.repo-card strong {
+  font-size: 16px;
+}
+
+.repo-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.repo-card span {
+  display: block;
+  margin: 10px 0;
+}
+
+.repo-card a {
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  padding: 8px 12px;
+  display: inline-block;
+  border-radius: 6px;
+  font-size: 14px;
+}
